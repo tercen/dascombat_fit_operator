@@ -1,5 +1,6 @@
 library(tercen)
 library(tim) # tercen/tim
+library(reshape2)
 library(dplyr, warn.conflicts = FALSE)
 source("R/core.R")
 

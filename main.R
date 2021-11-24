@@ -1,6 +1,7 @@
 library(tercen)
 library(tim) # tercen/tim
 library(dplyr, warn.conflicts = FALSE)
+library(reshape2)
 source("R/core.R")
 
 # tercenCtx
