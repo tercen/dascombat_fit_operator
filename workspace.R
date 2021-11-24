@@ -23,7 +23,7 @@ data = ctx %>% select(.y, .ri, .ci) %>%
 y = acast(data, .ri ~ .ci, value.var = ".y")
 bx = factor(acast(data, .ri ~ .ci, value.var = ".color")[1, ])
 
-model = fit(Y, bx, mean.only = TRUE)
+model = fit(y, bx, mean.only = TRUE)
 
 # serialize data and return back
 res <- get_serialized_result(
