@@ -17,7 +17,7 @@ Input projection|.
 
 Output relations|.
 ---|---
-`output_var`        | character, name of the DASCOMBAT model (to be used with other dascombat_prediction_operator)
+`model`        | character, name of the DASCOMBAT model (to be used with other dascombat_prediction_operator)
 
 ##### Details
 
