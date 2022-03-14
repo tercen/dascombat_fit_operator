@@ -10,10 +10,10 @@ make predictions in the `dascombat_prediction_operator`.
 
 Input projection|.
 ---|---
-`y-axis`        | type, description 
-`row`           | type, description 
-`column`        | type, description 
-`colors`        | type, description 
+`y-axis`        | the y values
+`row`           | the peptide IDs
+`column`        | the barcodes
+`colors`        | the reference batches
 
 Output relations|.
 ---|---
@@ -21,10 +21,10 @@ Output relations|.
 
 ##### Details
 
-Details on the computation.
+Details on the computation can be found in the `pamgene::pgbatch` and 
+`SVA::combat` applications.
 
 ##### See Also
 
-[template_shiny_operator](https://github.com/tercen/template_shiny_operator)
-, [template_docker_operator](https://github.com/tercen/template_docker_operator)
-
+[dascombat_shiny_fit_operator](https://github.com/tercen/dascombat_shiny_fit_operator)
+, [dascombat_prediction_operator](https://github.com/tercen/dascombat_prediction_operator)
